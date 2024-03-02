@@ -3,6 +3,13 @@ arr = [1, 2, 3]
 print(arr)
 
 
+# js vs python
+
+# push -->  append()
+# pop  --> pop()
+# shift -->  list.pop(0)    [ list.pop(elm_position) ]
+# unshift --> insert()  or  list.insert(0, element)      [for inserting at a certaing position in the list]
+
 # Can be used as a stack
 arr.append(4)    # push basically   O(1)
 arr.append(5)
@@ -55,3 +62,13 @@ list3 = [1, 2, 3]
 list4 = [4, 5, 6]
 concatenated_list2 = list3 + list4   # ********
 self_concatinated_list = list3 * 2   # ********
+
+# Sum of Array Elements
+my_array = [1, 2, 3, 4, 5]
+array_sum = sum(my_array)
+print(array_sum)  # Output: 15 (1 + 2 + 3 + 4 + 5)
+
+# String (No spaces) to array 
+s = "abc"
+s_list = list(s)
+print(s_list)  # Output: ['a', 'b', 'c']
