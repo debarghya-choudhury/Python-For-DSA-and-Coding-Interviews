@@ -33,3 +33,14 @@ a = {
 }
 
 a.clear() # >>> a = {}
+
+
+# remove() for arrays
+arr = [1,2,3]
+arr2 = [1,2,3]
+
+# both work
+arr.remove(1)  
+del arr2[0]    # del works for both dictionaries and arrays (lists)
+
+print(arr, arr2)   # >>  [2, 3]  [2,3]
